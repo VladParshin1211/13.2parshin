@@ -22,10 +22,10 @@ class Product:
     def price(self):
         return self.__price
 
-        @price.setter
-        def price(self, value):
-            if value <= 0:
-                print("цена введена некорректная")
-            else:
-                self.__price = value
+    @price.setter
+    def price(self, value):
+        if value <= 0:
+            print("цена введена некорректная")
+        else:
+            self.__price = value
 
